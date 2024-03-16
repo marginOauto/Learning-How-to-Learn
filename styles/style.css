@@ -1,0 +1,146 @@
+
+*{
+  margin: 0 auto;
+  padding:  0;
+  text-decoration: none;
+}
+.page {
+  min-width: 1100px;
+  /* we are not making mobile versions of websites yet, */
+  /* so here we've set a minimum page width */
+  max-width: 1600px;
+  /* here we've set a maximum page width */
+  margin: 0 auto;
+  padding: 0;
+  /* this ensures that all content is centered on screens wider than 1600px */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* parameters for the header section */
+  background-color:#f2f2f2 ;
+ position: relative;
+ display: flex;
+}
+
+.title{
+  margin-left: 64px;
+  width: 730px;
+line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+   z-index: 3;
+}
+.subtitle{
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+   z-index: 2;
+}
+
+.main-illustration{
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-image: url(../images/header-image.png);
+   background-repeat: no-repeat;
+   z-index: 1;
+}
+.square-pic{
+  position: absolute;
+  right: 0px;
+  top: 64px;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  z-index: 0;
+}
+.description{
+ display: flex;
+ justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  min-width: 784px;
+  background-color: #fff; 
+  width: 80%;
+}
+.brief{ 
+width: 175px;
+line-height: 1.2;
+font-size: 18px;
+font-weight: normal;
+}
+.paragraph{
+  margin-top: 30px;
+  margin-bottom: 30px;
+ line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.description-text{
+width: 80%;
+min-width: 784px;
+display: flex;
+flex-direction: column
+}
+.main-text{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.kaufman{
+  background-color:#1f1f1f ;
+}
+.section-title{
+line-height: 1.15;
+font-size: 60px;
+font-weight: 600;
+padding-top: 90px;
+width: 60%;
+}
+.section-subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+}
+.heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.text{
+  line-height: 1.2;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.table{
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.cell{
+  padding-top: 80px;
+  width: 200px;
+}
+.triangle{
+  background-image: url(../images/kaufman-triangle.svg);
+  position: absolute;
+}
