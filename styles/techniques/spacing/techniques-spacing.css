@@ -1,0 +1,19 @@
+.techniques{   
+  background-color: #fff;
+  width: 80%;
+}
+
+.techniques-title{
+  width: 60%;
+  margin-top: 100px;
+  
+}
+.techniques-subtitle{
+  width: 60%;
+  margin-top: 20px;
+}
+.cards{
+  width: 920px;
+ display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

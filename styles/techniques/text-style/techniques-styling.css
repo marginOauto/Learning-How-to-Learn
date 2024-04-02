@@ -1,0 +1,21 @@
+.techniques-title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+.techniques-subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.techniques-description{
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  z-index: 5;
+}

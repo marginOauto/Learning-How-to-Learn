@@ -1,0 +1,37 @@
+.feynman-img{
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.main-illustration{
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+   background-repeat: no-repeat;
+   z-index: 1;
+}
+.header_logo{
+  position: absolute;
+  top: 30px;
+  left: 64px;
+   width: 143px;
+  height: 32px;
+   background-size: 100%;
+   background-repeat:no-repeat;
+  background-position-y:-1px;
+}
+.square-pic{
+  position: absolute;
+  right: 0px;
+  top: 64px;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  z-index: 0;
+  animation: rotation 20s linear 0s infinite;
+}

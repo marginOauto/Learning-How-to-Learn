@@ -1,0 +1,27 @@
+.feynman{
+background-color: #f1f1f1;
+min-height: 790px;
+position: relative;
+}
+.feynman-link{
+  position: absolute;
+  top: 50%;
+  right: 48px;
+
+  z-index: 2;
+}
+.feynman-link:hover{
+transition: .5s ;
+opacity: .5;
+}
+.feynman-title{
+  width: 775px;
+  padding-top: 100px;
+  margin-bottom: 70px;
+  z-index: 2;
+  position: sticky;
+}
+.feynman-subtitle{
+position: sticky;
+z-index: 2;
+}

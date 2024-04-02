@@ -1,0 +1,21 @@
+.resources{
+background-color: #fff;
+}
+.resources-title{
+width: 60%;
+margin-bottom: 20px;
+position: sticky;
+  z-index: 5;
+
+}
+.resources-subtitle{
+  width: 60%;
+  position: sticky;
+  z-index: 5;
+padding-bottom: 80px;
+}
+.logo-zone{
+  display: flex;
+  width: 1100px;
+margin-bottom: 217px;
+}
